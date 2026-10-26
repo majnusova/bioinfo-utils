@@ -1,3 +1,9 @@
+""" 
+Removes gaps from FASTA alignments without introducing unwanted whitespace or newline characters.
+
+USAGE: python3 degap-aln.py input_filenaname output_filename
+"""
+
 import sys
 from Bio import SeqIO
 
